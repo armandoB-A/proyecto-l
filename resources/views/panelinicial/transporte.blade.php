@@ -10,7 +10,7 @@
                 <h2>TRANSPORTE</h2>
                 <p><span>SOMOS UNA EMPRESA DEDICADA AL TRANSPORTE DE MERCANCIA Y MUDANZAS, PRESTAMOS SERVICIO A NIVEL NACIONAL LAS 24 HORAS.</span>
                 </p>
-                <img class="twelve columns" src="images/01-transporte.jpg" alt="">
+                <img class="twelve columns" src="images/02-transporte.jpeg" alt="">
                 <div class="twelve columns">
                     <br>
                     <p>Mudanzas pronto ofrece a sus clientes una flota de vehículos en optimas condiciones de

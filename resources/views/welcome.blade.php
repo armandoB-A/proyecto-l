@@ -17,14 +17,14 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
-    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="{{asset('css/styles.css')}}" rel="stylesheet"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="css2/normalize.css">
-    <link rel="stylesheet" href="css2/skeleton.css">
-    <link rel="stylesheet" href="css2/owl.carousel.css">
-    <link rel="stylesheet" href="css2/owl.theme.css">
-    <link rel="stylesheet" href="css2/meanmenu.css">
-    <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="{{asset('css2/normalize.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/skeleton.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/owl.theme.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/meanmenu.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/style.css')}}">
 </head>
 <body id="page-top">
 
@@ -32,7 +32,7 @@
 <!--HEADER-->
 <div class="navbar navbar-expand-lg text-uppercase" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#page-top">Mudanzas Santiago</a>
+        <a class="navbar-brand" href="{{route('inicio')}}">Mudanzas Santiago</a>
         <div class="offset-by-one six columns">
             <div class="twelve columns">
                 <ul class="icon-contact">
@@ -66,16 +66,20 @@
         </div>
     </div>
 </div>
-@yield('content')
-<div class="contacto">
+<div>
+
+    @yield('content')
+</div>
+{{--<div class="contacto">
     <div class="container">
         <h2>CONTACTO</h2>
         <div class="line-letter"></div>
-        <p>Contamos con un modelo estratégico, para su movimiento y almacenaminto de todas sus mercancías con el objetivo de realizar una actividad eficiente con un menor costo y un excelente servicio.</p>
+        <p>Contamos con un modelo estratégico, para su movimiento y almacenaminto de todas sus mercancías con el
+            objetivo de realizar una actividad eficiente con un menor costo y un excelente servicio.</p>
         <h4>EMPAQUE, EMBALAJE, Y DESEMPAQUE DE MUEBLES.</h4>
         <a class="bottom" href="contacto.html">SOLICITA UNA COTIZACIÓN</a>
     </div>
-</div>
+</div>--}}
 
 
 <div class="footer__datos__contacto">

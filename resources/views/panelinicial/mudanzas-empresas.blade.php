@@ -8,7 +8,7 @@
             <h2>MUDANZAS EMPRESAS</h2>
             <div class="row">
                 <div class="four columns">
-                    <img class="twelve columns" src="images/interna-mudanzas-empresas.jpg" alt="">
+                    <img class="twelve columns" src="images/mudanzas-locales1.jpg" alt="">
                 </div>
                 <div class="eight columns">
                     <p>Mudamos desde pequeñas hasta grandes empresas y entidades públicas. Transportamos y empacamos su

@@ -28,18 +28,18 @@
     </style>
     <link href="css/styles.css" rel="stylesheet"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="css2/normalize.css">
-    <link rel="stylesheet" href="css2/skeleton.css">
-    <link rel="stylesheet" href="css2/owl.carousel.css">
-    <link rel="stylesheet" href="css2/owl.theme.css">
-    <link rel="stylesheet" href="css2/meanmenu.css">
-    <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="{{asset('css2/normalize.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/skeleton.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/owl.theme.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/meanmenu.css')}}">
+    <link rel="stylesheet" href="{{asset('css2/style.css')}}">
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">Mudanzas Santiago</a>
+                <a class="navbar-brand" href="{{route('inicio')}}">Mudanzas Santiago</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

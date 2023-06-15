@@ -5,9 +5,10 @@
         @else
             <h1>Bienvenido {{Auth::user()->name}}</h1>
             @if(Auth::user()->id_rol=='2')
-                <a href="{{route('usuarios.index')}}" class="btn btn-primary" ><h6>PANEL DE ADMIN</h6></a>
+                <a href="{{route('panel-admin')}}" class="btn btn-primary" ><h6>PANEL DE MUDANZAS</h6></a>
+                <a href="{{route('usuarios.index')}}" class="btn btn-primary" ><h6>ADMINISTRACION DE USUARIOS</h6></a>
             @endif
-            <a href="/" class="btn btn-primary" ><h6>PANEL DE USUARIO</h6></a>
+            <a href="{{route('panel-user')}}" class="btn btn-primary" ><h6>PANEL DE USUARIO</h6></a>
         @endguest
     </div>
     <div class="text-center" style="margin-top: 30px">
@@ -129,19 +130,19 @@
 
         <div class="container">
             <div class="three columns">
-                <img class="twelve columns" src="images/mudanzas-locales.jpg" alt="">
+                <img class="twelve columns" src="images/mudanzas-empresas1.jpeg" alt="">
                 <h3>MUDANZAS LOCALES</h3>
                 <p>Contamos con camiones de multiples tamaños con estacas ...</p>
                 <a href="{{route('mudanzaslocales')}}">Más información >></a>
             </div>
             <div class="three columns">
-                <img class="twelve columns" src="images/mudanzas-empresas.jpg" alt="">
+                <img class="twelve columns" src="images/mudanzas-locales1.jpg" alt="">
                 <h3>MUDANZAS EMPRESAS</h3>
                 <p>Mundamos desde pequeñas hasta grandes empresas y entidades ...</p>
                 <a href="{{route('mudanzasempresas')}}">Más información >></a>
             </div>
             <div class="three columns">
-                <img class="twelve columns" src="images/mudanzas-hogares.jpg" alt="">
+                <img class="twelve columns" src="images/mudanzas-hogares1.jpg" alt="">
                 <h3>MUDANZAS HOGARES</h3>
                 <p>Nuestros profesionales se encargarán de realizar todo el trabajo ...</p>
                 <a href="{{route('mudanzashogares')}}">Más información >></a>

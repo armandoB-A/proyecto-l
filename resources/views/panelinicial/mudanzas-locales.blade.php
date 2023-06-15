@@ -8,7 +8,7 @@
             <h2>MUDANZAS LOCALES</h2>
             <div class="row">
                 <div class="four columns">
-                    <img class="twelve columns" src="images/interna-mudanzas-locales.jpg" alt="">
+                    <img class="twelve columns" src="images/mudanzas-empresas1.jpeg" alt="">
                 </div>
                 <div class="eight columns">
                     <p>Contamos con camiones de multiples tamaños con estacas y furgonados para el transporte de su mercancia o mudanza. Utilizamos mantas de algodón para una mayor protección y cuidado de sus muebles y enseres.</p>
