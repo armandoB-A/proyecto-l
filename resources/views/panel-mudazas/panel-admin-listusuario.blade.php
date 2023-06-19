@@ -38,11 +38,13 @@
                         </div>
                         <div class="color-block-bottom">
                             <a href="{{route("adm-descripcion-mudanza",['id'=>$mudanza->id_mudanza])}}" class="btn btn-transparent-lblue">Ver detalles</a>
+                            @if($mudanza->status == 3)
+                                <a href="{{route("enviar-factura",['id_m'=>$mudanza->id_mudanza,'id_u'=>$mudanza->id_user])}}" class="btn btn-transparent-lblue">Mandar factura</a>
+                            @endif
                         </div>
                     </div>
                 </div>
             @endforeach
-
         </div>
     </div>
 @endsection

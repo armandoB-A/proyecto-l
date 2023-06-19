@@ -17,14 +17,14 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
-    <link href="{{asset('css/styles.css')}}" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="{{asset('css2/normalize.css')}}">
-    <link rel="stylesheet" href="{{asset('css2/skeleton.css')}}">
-    <link rel="stylesheet" href="{{asset('css2/owl.carousel.css')}}">
-    <link rel="stylesheet" href="{{asset('css2/owl.theme.css')}}">
-    <link rel="stylesheet" href="{{asset('css2/meanmenu.css')}}">
-    <link rel="stylesheet" href="{{asset('css2/style.css')}}">
+    <link rel="stylesheet" href="css2/normalize.css">
+    <link rel="stylesheet" href="css2/skeleton.css">
+    <link rel="stylesheet" href="css2/owl.carousel.css">
+    <link rel="stylesheet" href="css2/owl.theme.css">
+    <link rel="stylesheet" href="css2/meanmenu.css">
+    <link rel="stylesheet" href="css2/style.css">
 </head>
 <body id="page-top">
 
@@ -36,14 +36,15 @@
         <div class="offset-by-one six columns">
             <div class="twelve columns">
                 <ul class="icon-contact">
-                    <li class="nav-item "><a href="#">| 5535878129 - 5535878129      |  </a></li>
+                    <li class="nav-item "><a href="#">| +1 (702) 439-4432 - +1 (702) 439-4432 | </a></li>
                     @guest
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('login') }}">INICIAR SESION     |</a>
+                            <a class="nav-link " href="{{ route('login') }}">INICIAR SESION |</a>
                         </li>
                     @else
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }}
                             </a>
 
@@ -67,32 +68,20 @@
     </div>
 </div>
 <div>
-
     @yield('content')
 </div>
-{{--<div class="contacto">
-    <div class="container">
-        <h2>CONTACTO</h2>
-        <div class="line-letter"></div>
-        <p>Contamos con un modelo estratégico, para su movimiento y almacenaminto de todas sus mercancías con el
-            objetivo de realizar una actividad eficiente con un menor costo y un excelente servicio.</p>
-        <h4>EMPAQUE, EMBALAJE, Y DESEMPAQUE DE MUEBLES.</h4>
-        <a class="bottom" href="contacto.html">SOLICITA UNA COTIZACIÓN</a>
-    </div>
-</div>--}}
-
 
 <div class="footer__datos__contacto">
     <div class="container">
         <ul class="datos__footer">
-            <li class="icon-map">&nbsp;&nbsp;xhixhata, Jilotepec, México</li>
-            <li class="icon-mobile-2">&nbsp;&nbsp;5535878129 - 5535878129</li>
+            <li class="icon-map">&nbsp;&nbsp;Ciudad de México</li>
+            <li class="icon-mobile-2">&nbsp;&nbsp;+1 (702) 439-4432</li>
             <li class="icon-mail">
-                <a href="mailto:blasarce@gmail.com"></a>&nbsp;&nbsp;blasarce@gmail.com</li>
+                <a href="mailto:mudanzassantiago4@gmail.com"></a>&nbsp;&nbsp;mudanzassantiago4@gmail.com
+            </li>
         </ul>
     </div>
 </div>
-
 
 
 <!-- Bootstrap core JS-->

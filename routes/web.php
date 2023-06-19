@@ -92,3 +92,5 @@ Route::get('/adm-descripcion-mudanza/{id}', [App\Http\Controllers\MudanzaControl
 Route::post('/handle-form/{id}', [\App\Http\Controllers\MudanzaController::class, 'handleForm'])->name('handleForm');
 
 //descripcion-mudanza
+Route::get("/enviar-factura/", [\App\Http\Controllers\EmailController::class, 'enviarCorreo'])
+    ->name('enviar-factura');

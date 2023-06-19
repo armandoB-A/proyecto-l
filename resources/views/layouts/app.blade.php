@@ -106,10 +106,11 @@
     <div class="footer__datos__contacto">
         <div class="container">
             <ul class="datos__footer">
-                <li class="icon-map">&nbsp;&nbsp;xhixhata, Jilotepec, México</li>
-                <li class="icon-mobile-2">&nbsp;&nbsp;5535878129 - 5535878129</li>
+                <li class="icon-map">&nbsp;&nbsp;Ciudad de México</li>
+                <li class="icon-mobile-2">&nbsp;&nbsp;+1 (702) 439-4432</li>
                 <li class="icon-mail">
-                    <a href="mailto:blasarce@gmail.com"></a>&nbsp;&nbsp;blasarce@gmail.com</li>
+                    <a href="mailto:mudanzassantiago4@gmail.com"></a>&nbsp;&nbsp;mudanzassantiago4@gmail.com
+                </li>
             </ul>
         </div>
     </div>
